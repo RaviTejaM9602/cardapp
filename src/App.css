@@ -1,38 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1a1c22;
+}
+
 .App {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #273e83;
+   margin: 5rem;
+   left: 65px;
+   top: 53px;
+   padding: 10px;
+}
+
+.profile-pic {
+  left: 116px;
+  top: 44px;
+  margin: 2rem 3rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 30px;
   text-align: center;
+  color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-designation {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+  margin: 15px 2px 5px 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-web {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  display:block;
+  color: #F5F5F5;
+  margin-bottom: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-logo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 13px 12px 11px;
+  gap: 8px;
+  left: 151px;
+  top: 469px;  
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn img {
+  width: 10px;
 }
+
+.about {
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin: 5px;
+}
+
+.description {
+  font-size: 10.24px;
+  line-height: 15px;
+  text-align: left;
+  vertical-align: top;
+  color: #DCDCDC; 
+}
+
+.footer-items {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;  
+}
+
+.footer-items li {
+   padding: 5px;
+   color: #918E9B;
+}
+
+.about-section {
+  width: 533px;
+  top: 675px;
+  border-radius: nullpx;  
+}
+
+
+
